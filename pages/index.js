@@ -24,9 +24,9 @@ export default function Home() {
         <div className={headerStyles.Header_icon}>
           <button>
             <span className={IconKebabMenuStyles.IconKebabMenu}>
-              <span className={IconKebabMenuStyles.IconKebabMenu_dot}></span>
-              <span className={IconKebabMenuStyles.IconKebabMenu_dot}></span>
-              <span className={IconKebabMenuStyles.IconKebabMenu_dot}></span>
+              <span></span>
+              <span></span>
+              <span></span>
             </span>
           </button>
         </div>

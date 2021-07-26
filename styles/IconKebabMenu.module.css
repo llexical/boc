@@ -3,7 +3,7 @@
   display: block;
 }
 
-.IconKebabMenu_dot {
+.IconKebabMenu > span {
   width: 4px;
   height: 4px;
   border-radius: 3px;
@@ -12,6 +12,6 @@
   margin-bottom:4px;
 }
 
-.IconKebabMenu_dot:last-child {
+.IconKebabMenu > span:last-child {
   margin-bottom: 0;
 }
