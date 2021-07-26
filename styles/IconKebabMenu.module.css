@@ -1,0 +1,17 @@
+.IconKebabMenu {
+  position: relative;
+  display: block;
+}
+
+.IconKebabMenu_dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #979595;
+  display: block;
+  margin-bottom:4px;
+}
+
+.IconKebabMenu_dot:last-child {
+  margin-bottom: 0;
+}
