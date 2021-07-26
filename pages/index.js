@@ -20,7 +20,7 @@ export default function Home() {
             <Image src="/images/icons/noun_back_icon.svg" height={30} width={30} alt="back arrow by Тимур Минвалеев from the thenounproject.com" />
           </a>
         </div>
-        <h1 class={headerStyles.Header_title}>Title Here</h1>
+        <h1 class={headerStyles.Header_title}></h1>
         <div className={headerStyles.Header_icon}>
           <button>
             <span className={IconKebabMenuStyles.IconKebabMenu}>
@@ -36,25 +36,34 @@ export default function Home() {
         <article>
           <header className={bookArticleHeaderStyles.BookArticleHeader}>
             <div className={bookArticleHeaderStyles.BookArticleHeader_imageContainer}>
-              <Image src="/images/bookcover.jpg" alt="Distorted book cover" width={327} height={500} className={bookArticleHeaderStyles.BookArticleHeader_image} />
+              <Image src="/images/bookcover2.jpg" alt="Book cover" width={327} height={500} className={bookArticleHeaderStyles.BookArticleHeader_image} />
             </div>
             <div className={bookArticleHeaderStyles.BookArticleHeader_info}>
-              <h2>Distorted</h2>
-              <h3>Alabaster Penitentiary, Volume 1</h3>
+              <h2>Hunters and Killers: Serial Killers</h2>
+              <h3>(Criminal Delights Book 13)</h3>
               <dl className={bookArticleHeaderStyles.BookArticleHeader_details}>
                 <div>
-                  <dt>Author:</dt>
-                  <dd>Nyla K</dd>
+                  <dt>Author(s):</dt>
+                  <dd>Dora Esquivel, Natasha Snow, Miranda Vescio, Alexa Wayne</dd>
                 </div>
                 <div>
                   <dt>Published:</dt>
-                  <dd>18 Mar. 2021</dd>
+                  <dd>24 May 2019</dd>
                 </div>
               </dl>
             </div>
             <div className={bookArticleHeaderStyles.BookArticleHeader_rating}>
-              <span className={bookArticleHeaderStyles.BookArticleHeader_ratingNum}>4.3</span>
-              <span className={bookArticleHeaderStyles.BookArticleHeader_ratingStars}>Stars</span>
+              <span className={bookArticleHeaderStyles.BookArticleHeader_ratingNum} aria-hidden="true">3.5</span>
+              <span className={bookArticleHeaderStyles.BookArticleHeader_ratingStars} data-highlight-stars="3.5" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+              <span className="visually-hidden">
+                Average rating of 3.5 stars out of 5
+              </span>
             </div>
           </header>
           <nav></nav>
